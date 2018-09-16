@@ -63,3 +63,9 @@ Scenario: With discrepant self-ratings
 #Modificação na branch master
 #Primeira modificação na branch discrepantes
 #Segunda modificação na branch discrepantes
+
+Scenario: Discrepancy percentage view
+  Give I am logged in as "Professor"
+  When I access the menu "Lista de avaliações discrepantes"
+  Then I see the percentage of students with discrepant evaluations
+  And the number of students with discrepant evaluations.
