@@ -62,3 +62,4 @@ Scenario: With discrepant self-ratings
 
 #Modificação na branch master
 #Primeira modificação na branch discrepantes
+#Segunda modificação na branch discrepantes
