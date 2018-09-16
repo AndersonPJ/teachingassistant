@@ -61,3 +61,4 @@ Scenario: With discrepant self-ratings
   Then I see that only the student's name "João" is present in the list.
 
 #Modificação na branch master
+#Primeira modificação na branch discrepantes
